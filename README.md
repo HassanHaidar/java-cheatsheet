@@ -124,6 +124,11 @@ Insert / update an element with key k1 with value v1, return the previous elemen
 T previousElement = map.put(k1, v1);
 ```
 
+Insert element if key is absent
+```
+T element = map.putIfAbsent(k, v);
+```
+
 Create a counter for letters in a string
 ```
 Map<Character, Integer> freq = new HashMap<>();
